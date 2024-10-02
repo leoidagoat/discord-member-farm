@@ -5,6 +5,6 @@ Hey, this code was made by leoidagoat and dev.dieg0 on discord.
 run the api and then the bot setup everything.
 for help dm leoidagoat on discord.
 # why was this made public?
-i saw a member farm server thingy sell these bots for 40$ WHICH is crazy for sucha small program and since i was bored me and my friend made this.
+bored
 # happy hacking
 -- note this source code is kinda messy, i might overwork it on request.
