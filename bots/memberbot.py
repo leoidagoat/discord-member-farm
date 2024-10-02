@@ -1,6 +1,6 @@
 # please do not sell this to anyone its free for everyone.
 # i wont really explain how to setup this, if you need any help hit me up on discord leoidagoat
-
+# this is not fully done yet it wont edit the count how many members were success however they will join anyway.
 
 import discord
 from discord.ext import commands, tasks
