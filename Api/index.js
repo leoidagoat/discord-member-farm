@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 
 const apiRouter = require("./routes/api");
 const botRouter = require("./routes/bots");
-//const authRouter = require("./routes/auth") you gotta make your own authbot
+const authRouter = require("./routes/auth");
 
 //your mongodb string
 const db = ""
@@ -31,7 +31,7 @@ app.get("/", (req, res) => {
 
 app.use("/api", apiRouter)
 app.use("/bot", botRouter)
-//app.use("/auth", authRouter)
+app.use("/auth", authRouter)
 
 app.use((req, res, next) => {
     res.status(404).json({"success": false, "error": "unknown path"})
